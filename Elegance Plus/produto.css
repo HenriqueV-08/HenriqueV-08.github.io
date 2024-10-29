@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    background: linear-gradient(burlywood, beige);
+}
+header {
+    color: goldenrod;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: goldenrod;
+}
+main {
+    text-align: center;
+    background: linear-gradient(burlywood, beige);
+   
+}
+footer {
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: -700px;
+    margin: 20px 50px 0 0;
+    background: linear-gradient(beige, burlywood);
+}
+
+.footer-imagem{
+    width: 100px;
+}
+
+img {
+    width: 200px;
+    position: relative;
+}
+
+.container {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 15px 0 15px;
+}
+
+.container img {
+    width: 20%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover {
+    width: 25%;
+}
+
+.descricao-roupas{
+    text-align: center;
+    color: black;
+    margin: 15px 0 0 0;
+    font-weight: bolder;
+    font-size: 17px;
+    margin: 15px 0 15px 0;
+}
+
+.Comprar {
+    width: 20%;
+    padding: 15px 0;
+    background-color: red;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 0 0 0 525px;
+    padding: 10px 0;
+    border: 100px;
+}
+
+.Comprar:hover {
+    transform: scale(1.2);
+}

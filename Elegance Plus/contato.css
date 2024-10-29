@@ -1,0 +1,92 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige
+}
+header {
+    background-color: burlywood;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+nav a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: goldenrod
+}
+main {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(burlywood, beige);
+}
+
+h2{
+    font-weight: bolder;
+}
+
+footer {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: -120px;
+    margin: 0 400px 0 0;
+}
+
+.footer-imagem{
+   width: 100px;
+}
+
+img{
+    width: 200px;
+    position: relative;
+}
+
+.container {
+    width: 40%;
+    margin: 20px auto;
+    background: linear-gradient(burlywood, beige);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 10px 0 5px;
+    border-radius: 20px;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+button:hover {
+    background-color: rgb(189, 0, 0);
+}

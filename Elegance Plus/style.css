@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+header{
+    background-color: burlywood;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+nav a {
+    color: black;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: goldenrod
+}
+main {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(burlywood, beige)
+}
+footer {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: -550px;
+    position: absolute;
+    background: linear-gradient(beige, burlywood);
+}
+
+.footer-imagem{
+    width: 100px;
+}
+
+img{
+    width: 200px;
+    position: relative;
+}
+
+  .principal{
+    width: 940px;
+    margin: 0 auto;
+  }
+
+.principal p{
+    margin: 0 0 2em;
+    text-align: center;
+    color: black;
+
+}
+
+.principal strong{
+    font-weight: bolder;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 40px;
+    font-size: 2em;
+    color: black
+}
+
+.tecido{
+    margin: 0 0 0 100px;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.texto-tecido{
+    text-align: center;
+}
+.mapa{
+    width: 940px;
+    margin: 0 0 0 200px;
+    padding: 0 0 50px 0;
+}
+
+.video-um{
+    margin: 0 0 0 270px;
+}
+.video-dois{
+    margin: 0 70px 0 0;
+}
+
